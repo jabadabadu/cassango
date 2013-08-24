@@ -1,0 +1,6 @@
+include README.rst
+include MANIFEST.in
+include AUTHORS
+include INSTALL
+include CHANGELOG
+recursive-include cassango *.py
