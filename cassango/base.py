@@ -1,5 +1,7 @@
 #-*- coding: iso-8859-2 -*-
-import pycassa.ConsistencyLevel as CL
+import pycassa 
+
+from pycassa import ConsistencyLevel as CL
 
 from pycassa.system_manager import *
 from pycassa.pool import ConnectionPool as Connect
